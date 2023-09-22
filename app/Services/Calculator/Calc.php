@@ -6,9 +6,12 @@ class Calc {
 
    public function sum(int $a, int $b):int{
 
-        //$sum = $a + $b;
-
         return $a + $b;
-   } 
+   }
+
+   public function multiply(int $a, int $b):int{
+
+      return $a * $b;
+   }
 
 }
