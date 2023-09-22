@@ -20,8 +20,16 @@ class ExampleTest extends TestCase
     {
         $calc = new Calc();
 
+        //Sum:
         $result = $calc->sum(2, 2);
-
         $this->assertEquals(4, $result);
+
+        //Mult:
+        $result = $calc->multiply(2, 3);
+        $this->assertEquals(6, $result);
+
+        //Subst:
+        $result = $calc->substract(6, 3);
+        $this->assertEquals(3, $result);
     }
 }
