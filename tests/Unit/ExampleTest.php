@@ -31,5 +31,9 @@ class ExampleTest extends TestCase
         //Subst:
         $result = $calc->substract(6, 3);
         $this->assertEquals(3, $result);
+
+        //Devision:
+        $result = $calc->devide(6, 3);
+        $this->assertEquals(2, $result);
     }
 }
