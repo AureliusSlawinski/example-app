@@ -14,4 +14,9 @@ class Calc {
       return $a * $b;
    }
 
+   public function substract(int $a, int $b):int{
+
+      return $a - $b;
+   }
+
 }
