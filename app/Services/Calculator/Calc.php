@@ -19,4 +19,9 @@ class Calc {
       return $a - $b;
    }
 
+   public function devide(int $a, int $b):int{
+
+      return $a / $b;
+   }
+
 }
